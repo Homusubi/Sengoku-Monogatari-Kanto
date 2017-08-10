@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_KANTO_NAME" Language="en_US">
+			<Text>The Empire of Kanto</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_KANTO_DESCRIPTION" Language="en_US">
+			<Text>KANTO DESCRIPTION change this</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_KANTO_ADJECTIVE" Language="en_US">
+			<Text>Change this</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_HOJO_NAME" Language="en_US">
+			<Text>Hojo Tokimune</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" Language="en_US">
+			<Text>Meiji Restoration</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="en_US">
+			<Text>All districts receive an additional standard adjacency bonus for being adjacent to another district.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_HOJO_NAME" Language="en_US">
+			<Text>Divine Wind</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HOJO_DESCRIPTION" Language="en_US">
+			<Text>change this</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Language="en_US">
+			<Text>Electronics Factory</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Japan. +4 [ICON_Production] Production to all cities within 6 tiles. After researching the Electricity technology this building provides an additional +4 [ICON_Culture] Culture to its city.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_HOJO" Kind="KIND_LEADER" />
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_HOJO</LeaderType>
+			<Name>LOC_LEADER_HOJO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HOJO" Quote="LOC_LEADER_HOJO_QUOTE"/>
+	</LeaderQuotes>
+	
+</GameData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_JAPANESE_SAMURAI" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Tags>
+		<Row Tag="CLASS_SAMURAI" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_JAPANESE_SAMURAI" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_JAPANESE_SAMURAI" Tag="CLASS_SAMURAI"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_JAPANESE_SAMURAI_NAME" Description="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="45" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI" PrereqTech="TECH_MILITARY_TACTICS"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_JAPANESE_SAMURAI" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+	
+</GameData>

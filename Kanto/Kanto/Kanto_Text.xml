@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ELECTRONICS_FACTORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>I'm not going to write the historical context about the litter box...</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOJO_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOJO_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOJO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_KANTO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_1">
+			<Text>Akeno</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_2">
+			<Text>Benjiro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_3">
+			<Text>Hiroshi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_4">
+			<Text>Jomei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_5">
+			<Text>Kaage</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_6">
+			<Text>Kaemon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_7">
+			<Text>Mashiro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_8">
+			<Text>Renjiro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_9">
+			<Text>Sachiro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MALE_10">
+			<Text>Teijo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_1">
+			<Text>Akiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_2">
+			<Text>Chiyo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_3">
+			<Text>Emiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_4">
+			<Text>Hoshiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_5">
+			<Text>Kameko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_6">
+			<Text>Kashiya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_7">
+			<Text>Kimiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_8">
+			<Text>Natsuko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_9">
+			<Text>Sakura</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_FEMALE_10">
+			<Text>Yumiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_1">
+			<Text>Akira</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_2">
+			<Text>Haruta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_3">
+			<Text>Hiroto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_4">
+			<Text>Masa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_5">
+			<Text>Ren</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_6">
+			<Text>Sho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_7">
+			<Text>Sora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_8">
+			<Text>Tatsuo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_9">
+			<Text>Yamato</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_MALE_10">
+			<Text>Yuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_1">
+			<Text>Aoi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_2">
+			<Text>Hina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_3">
+			<Text>Midori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_4">
+			<Text>Miu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_5">
+			<Text>Miyu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_6">
+			<Text>Nanami</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_7">
+			<Text>Rin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_8">
+			<Text>Sakura</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_9">
+			<Text>Umi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KANTO_MODERN_FEMALE_10">
+			<Text>Yumi</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_1" Language="en_US">
+			<Text>Kamakura</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_2" Language="en_US">
+			<Text>Edo</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_3" Language="en_US">
+			<Text>Odawara</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_4" Language="en_US">
+			<Text>Nikko</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_5" Language="en_US">
+			<Text>Kawagoe</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_6" Language="en_US">
+			<Text>Yokohama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_7" Language="en_US">
+			<Text>Mishima</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_8" Language="en_US">
+			<Text>Hachigata</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_9" Language="en_US">
+			<Text>Chiba</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_10" Language="en_US">
+			<Text>Utsunomiya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_11" Language="en_US">
+			<Text>Mito</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_12" Language="en_US">
+			<Text>Uraga</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_13" Language="en_US">
+			<Text>Kawasaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_14" Language="en_US">
+			<Text>Hachioji</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_15" Language="en_US">
+			<Text>Sakasai</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_16" Language="en_US">
+			<Text>Fujisawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_17" Language="en_US">
+			<Text>Kumagaya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_18" Language="en_US">
+			<Text>Takasaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_19" Language="en_US">
+			<Text>Urawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_20" Language="en_US">
+			<Text>Arai</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_21" Language="en_US">
+			<Text>Kanagawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_22" Language="en_US">
+			<Text>Shimoda</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_23" Language="en_US">
+			<Text>Hodogaya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_24" Language="en_US">
+			<Text>Otaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_25" Language="en_US">
+			<Text>Inohana</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_26" Language="en_US">
+			<Text>Nirayama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_27" Language="en_US">
+			<Text>Iwama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_28" Language="en_US">
+			<Text>Machida</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_29" Language="en_US">
+			<Text>Takiyama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_30" Language="en_US">
+			<Text>Kururi</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_31" Language="en_US">
+			<Text>Tsuchiura</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_32" Language="en_US">
+			<Text>Kasama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_33" Language="en_US">
+			<Text>Sakura</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_KANTO_CITY_34" Language="en_US">
+			<Text>Kanayama</Text>
+		</Row>
+
+		<!--Civilization Factoids -->
+		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
+			<Text>Binomial Name</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
+			<Text>Felis catus</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_HOJO_QUOTE" Language="en_US">
+			<Text>Change this</Text>
+		</Row>
+    
+    <!-- Leader Dialog -->
+    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HOJO_ANY" Language="en_US">
+      <Text>change this</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HOJO_ANY" Language="en_US">
+      <Text>change this</Text>
+    </Row>
+
+    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HOJO_ANY" Language="en_US">
+      <Text>change this</Text>
+    </Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_ELECTRONICS_FACTORY" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1" RegionalRange="6" TraitType="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_ELECTRONICS_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
+	</BuildingPrereqs>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_ELECTRONICS_FACTORY" ReplacesBuildingType="BUILDING_FACTORY"/>
+	</BuildingReplaces>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Modifiers>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_ELECTRICITYTECHNOLOGY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ELECTRONICS_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ELECTRONICS_FACTORY</BuildingType>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+		</Row>
+	</Modifiers>
+</GameData>

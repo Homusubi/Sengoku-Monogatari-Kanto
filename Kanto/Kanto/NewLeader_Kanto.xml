@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_KANTO" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_KANTO</CivilizationType>
+			<Name>LOC_CIVILIZATION_KANTO_NAME</Name>
+			<Description>LOC_CIVILIZATION_KANTO_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_KANTO_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_KANTO" LeaderType="LEADER_HOJO" CapitalName="LOC_CIVLIZATION_KANTO_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_9" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_MALE_10" Female="0"/>
+
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_8" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_9" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" CitizenName="LOC_CITIZEN_KANTO_FEMALE_10" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_KANTO" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+	</CivilizationInfo>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_KANTO" TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS"/>
+		<Row CivilizationType="CIVILIZATION_KANTO" TraitType="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY" />
+	</CivilizationTraits>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS" Name="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" Description="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY" Name="LOC_TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI" Name="LOC_TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI_NAME"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ADJACENT_DISTRICTS</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_KANTO" CityName="LOC_CIVLIZATION_KANTO_CITY_34" />
+	</CityNames>
+	
+</GameData>

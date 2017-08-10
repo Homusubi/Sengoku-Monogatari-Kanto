@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_KANTO</CivilizationType>
+			<LeaderType>LEADER_HOJO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_KANTO_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_KANTO</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HOJO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HOJO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_KANTO</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_DIVINE_WIND_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_DIVINE_WIND_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HOJO</LeaderAbilityIcon>
+			<Portrait>LEADER_HOJO_NEUTRAL</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<CivilizationType>CIVILIZATION_KANTO</CivilizationType>
+			<LeaderType>LEADER_HOJO</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_KANTO</CivilizationType>
+			<LeaderType>LEADER_HOJO</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
